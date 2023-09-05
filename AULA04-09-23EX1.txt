@@ -1,0 +1,16 @@
+CREATE TABLE sql_exercicio1_alunos (
+  ID INT, 
+  NOME VARCHAR(100),
+  RA VARCHAR(500),
+  DATA_NASCIMENTO DATE(500),
+  ENDERECO VARCHAR(500),
+  EMAIL VARCHAR(500)
+  );
+ 
+ INSERT INTO sql_exercicio1_alunos VALUES (1, 'Murilo', '110827', '1993-10-11', 'ipes amareslos 118', 'mugavazzi@gmail.com');
+ INSERT INTO sql_exercicio1_alunos VALUES (2, 'Joao', '123456', '1994-10-11', 'ipes amareslos 11', 'joao1994@gmail.com');
+ INSERT INTO sql_exercicio1_alunos VALUES (3, 'Ricardo', '456789', '1995-10-11', 'ipes amareslos 120', 'ricardo1995@gmail.com');
+ INSERT INTO sql_exercicio1_alunos VALUES (4, 'Maria', '123789', '1996-10-11', 'ipes amareslos 390', 'maria1996@gmail.com');
+ INSERT INTO sql_exercicio1_alunos VALUES (5, 'Natalia', '456123', '1997-10-11', 'ipes amareslos 957', 'natalia1997@gmail.com');
+
+SELECT * FROM sql_exercicio1_alunos;
